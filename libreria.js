@@ -21,7 +21,7 @@ const getLibri = function () {
         const col = document.createElement("div")
         col.classList.add("col", "mb-4")
         col.innerHTML = `
-          <div class="card shadow-sm">
+          <div class="card shadow">
             <img src="${libro.img}" class="card-img-top img-fluid" alt="${libro.title}">
             <div class="card-body">
               <h5 class="card-title">${libro.title}</h5>
